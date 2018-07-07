@@ -1,2 +1,4 @@
 esp32-gateway-cache.lib
 *.bak
+*.kicad_pcb-bak
+
