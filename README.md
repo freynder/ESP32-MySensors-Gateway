@@ -9,5 +9,9 @@ A basic ESP32 board designed to function as a Mysensors Gateway with the followi
 
 Please note that this is a work in progress and has not been tested yet. I will update the project asap.
 
-
-
+Update Aug 10th: Tested the boards and some issues came up:
+- TX and RX leds connected to IO34 and IO35 do not work as ESP32 does not support pull-up on those pins.
+- Wrong labelling of RX led (mentioned 36 but should be 34)
+- C4 capacitor was located near the CH340G chip but should have been near AMS1117
+- auto flash does not seem to work. Needs additional troubleshooting. Holding the flash button manually does work.
+Added some pictures.
