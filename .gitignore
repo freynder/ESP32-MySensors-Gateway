@@ -2,3 +2,9 @@ esp32-gateway-cache.lib
 *.bak
 *.kicad_pcb-bak
 
+esp32-gateway-rescue.dcm
+esp32-gateway-rescue.lib
+fp-info-cache
+gerber.zip
+gerber_protel.zip
+
