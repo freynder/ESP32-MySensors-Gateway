@@ -18,3 +18,6 @@ Update Aug 10th: Tested the boards and some issues came up:
 - auto flash does not work due to missing pull-up on EN pin.
 
 Update Aug 13th: Updated design to remedy flaws. Increased font size and optimized borders. Tagged as V2
+
+Update Aug 29th: Found an issue with the inclusion button connected to IO33 which was also used by a LED. Corrected this by connecting to IO35 instead. Tagged as V3
+

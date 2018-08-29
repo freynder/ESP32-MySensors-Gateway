@@ -1098,7 +1098,7 @@ F 3 "" H 4442 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4242 3150 0    50   Input ~ 0
-IO33
+IO35
 $Comp
 L power:GND #PWR021
 U 1 1 5B44D398
