@@ -21,3 +21,5 @@ Update Aug 13th: Updated design to remedy flaws. Increased font size and optimiz
 
 Update Aug 29th: Found an issue with the inclusion button connected to IO33 which was also used by a LED. Corrected this by connecting to IO35 instead. Tagged as V3
 
+Update Sept 4th: Found a design flaw causing with the power circuit which may impact transceiver operation. Temporary fix in V3.1. Will redesign the board in a future version.
+
