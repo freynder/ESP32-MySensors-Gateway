@@ -7,4 +7,6 @@ esp32-gateway-rescue.lib
 fp-info-cache
 gerber.zip
 gerber_protel.zip
+gerber/
+gerber_protel/
 
