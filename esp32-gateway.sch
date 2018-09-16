@@ -648,36 +648,36 @@ Wire Wire Line
 $Comp
 L RF:NRF24L01_Breakout U6
 U 1 1 5B40567B
-P 4350 5590
-F 0 "U6" H 4040 6160 50  0000 L CNN
-F 1 "NRF24L01_Breakout" H 3520 6090 50  0000 L CNN
-F 2 "RF_Module:nRF24L01_Breakout" H 4500 6190 50  0001 L CIN
-F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 4350 5490 50  0001 C CNN
-	1    4350 5590
+P 3250 5590
+F 0 "U6" H 2940 6160 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 2420 6090 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 3400 6190 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 3250 5490 50  0001 C CNN
+	1    3250 5590
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5B4059C9
-P 4350 6190
-F 0 "#PWR018" H 4350 5940 50  0001 C CNN
-F 1 "GND" V 4350 5980 50  0000 C CNN
-F 2 "" H 4350 6190 50  0001 C CNN
-F 3 "" H 4350 6190 50  0001 C CNN
-	1    4350 6190
+P 3250 6190
+F 0 "#PWR018" H 3250 5940 50  0001 C CNN
+F 1 "GND" V 3250 5980 50  0000 C CNN
+F 2 "" H 3250 6190 50  0001 C CNN
+F 3 "" H 3250 6190 50  0001 C CNN
+	1    3250 6190
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3850 5290 0    50   Input ~ 0
+Text GLabel 2750 5290 0    50   Input ~ 0
 MOSI
-Text GLabel 3850 5390 0    50   Input ~ 0
+Text GLabel 2750 5390 0    50   Input ~ 0
 MISO
-Text GLabel 3850 5490 0    50   Input ~ 0
+Text GLabel 2750 5490 0    50   Input ~ 0
 SCK
-Text GLabel 3850 5590 0    50   Input ~ 0
+Text GLabel 2750 5590 0    50   Input ~ 0
 NSS
-Text GLabel 3850 5790 0    50   Input ~ 0
+Text GLabel 2750 5790 0    50   Input ~ 0
 CE-RST
-Text GLabel 3850 5890 0    50   Input ~ 0
+Text GLabel 2750 5890 0    50   Input ~ 0
 IRQ
 $Comp
 L Device:Q_NPN_BEC Q2
@@ -1577,7 +1577,7 @@ Text GLabel 2860 6640 0    50   Input ~ 0
 RFPOW
 Text GLabel 4640 6650 0    50   Input ~ 0
 RFPOW
-Text GLabel 4350 4990 2    50   Input ~ 0
+Text GLabel 3250 4990 2    50   Input ~ 0
 RFPOW
 Wire Wire Line
 	7180 980  7180 1370
@@ -1587,4 +1587,55 @@ Text GLabel 6070 1170 0    50   Input ~ 0
 RFPOW
 Text GLabel 7180 1170 0    50   Input ~ 0
 RFPOW
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 5B9E6499
+P 6260 5190
+F 0 "J7" H 6287 5166 50  0000 L CNN
+F 1 "I2C Breakout" H 6287 5075 50  0000 L CNN
+F 2 "Sparkfun Connectors:1X04_NO_SILK" H 6260 5190 50  0001 C CNN
+F 3 "~" H 6260 5190 50  0001 C CNN
+	1    6260 5190
+	1    0    0    -1  
+$EndComp
+Text Notes 6170 4860 0    50   ~ 0
+I2C header
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5B9E8E21
+P 6060 5090
+F 0 "#PWR0101" H 6060 4940 50  0001 C CNN
+F 1 "+3.3V" V 6075 5218 50  0000 L CNN
+F 2 "" H 6060 5090 50  0001 C CNN
+F 3 "" H 6060 5090 50  0001 C CNN
+	1    6060 5090
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5B9E8FB4
+P 6060 5190
+F 0 "#PWR0102" H 6060 4940 50  0001 C CNN
+F 1 "GND" V 6065 5062 50  0000 R CNN
+F 2 "" H 6060 5190 50  0001 C CNN
+F 3 "" H 6060 5190 50  0001 C CNN
+	1    6060 5190
+	0    1    1    0   
+$EndComp
+Text GLabel 2840 3380 2    50   Input ~ 0
+SDA
+Text GLabel 2840 3480 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	2840 3380 2600 3380
+Wire Wire Line
+	2840 3480 2600 3480
+Text GLabel 6060 5390 0    50   Input ~ 0
+SDA
+Text GLabel 6060 5290 0    50   Input ~ 0
+SCL
+Wire Notes Line
+	5590 4700 5590 5600
+Wire Notes Line
+	5590 5600 6900 5600
 $EndSCHEMATC

@@ -4,6 +4,7 @@ A basic ESP32 board designed to function as a Mysensors Gateway with the followi
 - Footprints for RFM69 and nRF24L01 breakout boards
 - uFL antenna connector for RFM69.
 - Optional onboard LEDs for POWER, ERROR, TX, RX, Inclusion. Header for external LEDs if desired.
+- Breakout header for I2C boards such as Si7021, HTU21D, SHTT71 and BME280 sensors.
 - Inclusion button and general purpose custom button. Header for external buttons if desired.
 - Powered and programmed over USB. Auto-reset and flash mechanism.
 - Dual regulator: RF modules have a dedicated power regulator to improve reliability.
