@@ -1,34 +1,38 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref
-12,C1,C_1206_3216Metric,1,4.7uF,any
-9,"C10,C6",C_0603_1608Metric,2,10uF,any
-11,"C2,C9,C11,C5",C_0603_1608Metric,4,0.1uF,any
-10,"C4,C3",C_1206_3216Metric,2,22uF,any
-22,C7,C_0603_1608Metric,1,10nF,any
-23,C8,C_0603_1608Metric,1,1nF,any
-20,D1,LED_0603_1608Metric,1,LED BLUE,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
-19,D2,LED_0603_1608Metric,1,LED GREEN,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
-18,D3,LED_0603_1608Metric,1,LED YELLOW,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
-17,D4,LED_0603_1608Metric,1,LED RED,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
-21,D5,LED_0603_1608Metric,1,LED WHITE,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
-29,J1,aliexpress_micro_USB_connector,1,USB_B_Micro,https://www.aliexpress.com/item/100pcs-Micro-Jack-Connector-Female-5pin-Charging-Socket-Micro-USB-5Pin-Inserting-Plate-Seat-Mini-usb/32834165597.html
-1,J2,connector-XH2.54-01x05,1,Button Connector,https://www.aliexpress.com/item/50PCS-Lot-XH2-54-Pin-Header-Connector-2P-3P-4P-5P-6P-7P-8P-9P-10P/32820868041.html
-2,J3,connector-XH2.54-01x06,1,Ext LED header,https://www.aliexpress.com/item/50PCS-Lot-XH2-54-Pin-Header-Connector-2P-3P-4P-5P-6P-7P-8P-9P-10P/32820868041.html
-30,J4,U.FL_Molex_MCRF_73412-0110_Vertical,1,Conn_Coaxial,https://www.aliexpress.com/item/Free-Shipping-50PCS-U-FL-R-SMT-U-FL-socket-IPEX-IPX-connectors-RF-Coaxial-Connector/32872904554.html
-27,J5,1X17_NO_SILK,1,Header Left,standard pin header
-26,J6,1X17_NO_SILK,1,Header Right,standard pin header
-34,"Q1,Q2",SOT-23,2,S8050,https://www.aliexpress.com/item/20PCS-Lot-New-Original-J3Y-S8050-SMD-SOT-23-Triode-Wholesale-Electronic/32495368656.html
-15,"R3,R4",R_0603_1608Metric,2,120,any
-13,"R5,R1,R2",R_0603_1608Metric,3,22,any
-14,R6,R_0603_1608Metric,1,10K,any
-16,"R7,R8",R_0603_1608Metric,2,12K,any
-31,SW1,SW_SPST_CK_RS282G05A3,1,SW_RESET,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
-24,SW2,SW_SPST_CK_RS282G05A3,1,SW_INCLUSION,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
-25,SW3,SW_SPST_CK_RS282G05A3,1,SW_GEN1,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
-32,SW4,SW_SPST_CK_RS282G05A3,1,SW_BOOT,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
-7,U1,RFM69HCW,1,RFM69HCW,any
-3,U2,MODULE_ESP-WROOM-32,1,ESP-WROOM-32,https://www.aliexpress.com/item/ESP-32S-ESP-WROOM-32-ESP32-ESP-32-Bluetooth-and-WIFI-Dual-Core-CPU-with-Low/32808772590.html
-8,"U4,U3",AMS1117-3.3,2,AMS1117-3.3,https://www.aliexpress.com/item/100PCS-LOT-Original-AMS1117-3-3-AMS1117-3-3V-AMS1117-LM1117-1117-Voltage-Regulator-We-only/32816744520.html
-6,U5,RFM69CW,1,RFM69CW,any
-4,U6,nRF24L01_Breakout,1,NRF24L01_Breakout,any
-5,U7,RFM69HW,1,RFM69(H)W,any
-33,U8,SO16,1,CH340C,https://www.aliexpress.com/item/10pcs-340-C-With-C-100-New-CH340C-USB-To-Serial-Chip-Chip-SOP-16/32880586760.html
+Designator,Package,Quantity,Value,Supplier and ref
+C1,C_1206_3216Metric,1,4.7uF tantalum,any
+"C10,C6",C_0603_1608Metric,2,10uF,any
+C12,C_1206_3216Metric,1,10uF tantalum,any
+C13,CP_Elec_4x5.4,1,0.47uF electrolytic SMD,any
+"C2,C14,C9,C11,C5",C_0603_1608Metric,5,0.1uF,any
+"C4,C3",C_1206_3216Metric,2,22uF tantalum,any
+C7,C_0603_1608Metric,1,10nF,any
+C8,C_0603_1608Metric,1,1nF,any
+D1,LED_0603_1608Metric,1,LED BLUE,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
+D2,LED_0603_1608Metric,1,LED GREEN,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
+D3,LED_0603_1608Metric,1,LED YELLOW,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
+D4,LED_0603_1608Metric,1,LED RED,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
+D5,LED_0603_1608Metric,1,LED WHITE,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
+J1,aliexpress_micro_USB_connector,1,USB_B_Micro,https://www.aliexpress.com/item/100pcs-Micro-Jack-Connector-Female-5pin-Charging-Socket-Micro-USB-5Pin-Inserting-Plate-Seat-Mini-usb/32834165597.html
+J2,connector-XH2.54-01x05,1,Button Connector,https://www.aliexpress.com/item/50PCS-Lot-XH2-54-Pin-Header-Connector-2P-3P-4P-5P-6P-7P-8P-9P-10P/32820868041.html
+J3,connector-XH2.54-01x06,1,Ext LED header,https://www.aliexpress.com/item/50PCS-Lot-XH2-54-Pin-Header-Connector-2P-3P-4P-5P-6P-7P-8P-9P-10P/32820868041.html
+J4,U.FL_Molex_MCRF_73412-0110_Vertical,1,u.FL,https://www.aliexpress.com/item/Free-Shipping-50PCS-U-FL-R-SMT-U-FL-socket-IPEX-IPX-connectors-RF-Coaxial-Connector/32872904554.html
+J5,1X17_NO_SILK,1,Header Left,standard pin header
+J6,1X17_NO_SILK,1,Header Right,standard pin header
+J7,1X04_NO_SILK,1,I2C Breakout,standard pin header
+J8,1X04_NO_SILK,1,RXB6 Breakout,standard pin header
+"Q1,Q2",SOT-23,2,Q_NPN_BEC S8050,https://www.aliexpress.com/item/20PCS-Lot-New-Original-J3Y-S8050-SMD-SOT-23-Triode-Wholesale-Electronic/32495368656.html
+"R3,R4",R_0603_1608Metric,2,120,any
+"R5,R1,R2",R_0603_1608Metric,3,22,any
+R6,R_0603_1608Metric,1,10K,any
+"R7,R8",R_0603_1608Metric,2,12K,any
+SW1,SW_SPST_CK_RS282G05A3,1,SW_RESET,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
+SW2,SW_SPST_CK_RS282G05A3,1,SW_INCLUSION,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
+SW3,SW_SPST_CK_RS282G05A3,1,SW_GEN1,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
+SW4,SW_SPST_CK_RS282G05A3,1,SW_BOOT,https://www.aliexpress.com/item/100PCS-3X6X2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/32672806661.html
+U1,RFM69HCW-XXXS2-MINPADS,1,RFM69HCW,any
+U2,MODULE_ESP-WROOM-32,1,ESP-WROOM-32,any
+"U4,U3",AMS1117-3.3,2,AMS1117-3.3,https://www.aliexpress.com/item/100PCS-LOT-Original-AMS1117-3-3-AMS1117-3-3V-AMS1117-LM1117-1117-Voltage-Regulator-We-only/32816744520.html
+U5,RFM69CW-XXXS2-MINPADS,1,RFM69CW,any
+U6,nRF24L01_Breakout,1,NRF24L01_Breakout,https://www.aliexpress.com/item/E01-ML01D-small-size-SPI-nRF24L01P-2-4Ghz-1mW-PCB-antenna-IOT-uhf-wireless-transceiver-transmitter/32803704874.html
+U7,HOPERF_RFM69HW-MINPADS,1,RFM69(H)W,any
+U8,SO16,1,CH340C,https://www.aliexpress.com/item/10pcs-340-C-With-C-100-New-CH340C-USB-To-Serial-Chip-Chip-SOP-16/32880586760.html

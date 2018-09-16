@@ -8,5 +8,8 @@ fp-info-cache
 gerber.zip
 gerber_protel.zip
 gerber/
-gerber_protel/
+gerber_protel
+esp32-gateway-schema.pdf
+_autosave*
+esp32-gateway-bom.pdf
 
