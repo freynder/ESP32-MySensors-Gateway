@@ -1,10 +1,10 @@
-Designator,Package,Quantity,Value,Supplier and ref
-C1,C_1206_3216Metric,1,4.7uF tantalum,any
+Designator,Package,Quantity,Designation,Supplier and ref
+C1,C_1206_3216Metric,1,4.7uF,any
 "C10,C6",C_0603_1608Metric,2,10uF,any
-C12,C_1206_3216Metric,1,10uF tantalum,any
-C13,CP_Elec_4x5.4,1,0.47uF electrolytic SMD,any
+C12,C_1206_3216Metric,1,10uF,any
+C13,CP_Elec_4x5.4,1,0.47uF,any
 "C2,C14,C9,C11,C5",C_0603_1608Metric,5,0.1uF,any
-"C4,C3",C_1206_3216Metric,2,22uF tantalum,any
+"C4,C3",C_1206_3216Metric,2,22uF,any
 C7,C_0603_1608Metric,1,10nF,any
 C8,C_0603_1608Metric,1,1nF,any
 D1,LED_0603_1608Metric,1,LED BLUE,https://www.aliexpress.com/item/5-x-100pcs-Color-500pcs-New-1206-0805-0603-Red-Green-Blue-White-Yellow-SMD-LED/837971310.html
@@ -20,7 +20,8 @@ J5,1X17_NO_SILK,1,Header Left,standard pin header
 J6,1X17_NO_SILK,1,Header Right,standard pin header
 J7,1X04_NO_SILK,1,I2C Breakout,standard pin header
 J8,1X04_NO_SILK,1,RXB6 Breakout,standard pin header
-"Q1,Q2",SOT-23,2,Q_NPN_BEC S8050,https://www.aliexpress.com/item/20PCS-Lot-New-Original-J3Y-S8050-SMD-SOT-23-Triode-Wholesale-Electronic/32495368656.html
+"Q1,Q2",SOT-23,2,Q_NPN_BEC,https://www.aliexpress.com/item/20PCS-Lot-New-Original-J3Y-S8050-SMD-SOT-23-Triode-Wholesale-Electronic/32495368656.html
+"R10,R9",R_0603_1608Metric,2,4.7K,any
 "R3,R4",R_0603_1608Metric,2,120,any
 "R5,R1,R2",R_0603_1608Metric,3,22,any
 R6,R_0603_1608Metric,1,10K,any

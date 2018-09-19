@@ -612,25 +612,25 @@ Connection ~ 5680 7350
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5B40284C
-P 5230 3610
-F 0 "J4" H 5329 3586 50  0000 L CNN
-F 1 "u.FL" H 5329 3495 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical" H 5230 3610 50  0001 C CNN
-F 3 " ~" H 5230 3610 50  0001 C CNN
-	1    5230 3610
+P 5170 4030
+F 0 "J4" H 5269 4006 50  0000 L CNN
+F 1 "u.FL" H 5269 3915 50  0000 L CNN
+F 2 "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical" H 5170 4030 50  0001 C CNN
+F 3 " ~" H 5170 4030 50  0001 C CNN
+	1    5170 4030
 	1    0    0    -1  
 $EndComp
-Text GLabel 5030 3610 0    50   Input ~ 0
+Text GLabel 4970 4030 0    50   Input ~ 0
 RFMANT
 $Comp
 L power:GND #PWR034
 U 1 1 5B402D6A
-P 5230 3810
-F 0 "#PWR034" H 5230 3560 50  0001 C CNN
-F 1 "GND" H 5235 3637 50  0000 C CNN
-F 2 "" H 5230 3810 50  0001 C CNN
-F 3 "" H 5230 3810 50  0001 C CNN
-	1    5230 3810
+P 5170 4230
+F 0 "#PWR034" H 5170 3980 50  0001 C CNN
+F 1 "GND" H 5175 4057 50  0000 C CNN
+F 2 "" H 5170 4230 50  0001 C CNN
+F 3 "" H 5170 4230 50  0001 C CNN
+	1    5170 4230
 	1    0    0    -1  
 $EndComp
 Text GLabel 1930 7400 2    50   Input ~ 0
@@ -1467,8 +1467,6 @@ Text Notes 6100 1920 0    50   ~ 0
 LEDs + Header
 Text Notes 3780 2330 0    50   ~ 0
 Switches
-Wire Notes Line
-	4440 470  4440 4120
 $Comp
 L Connector:Conn_01x05_Male J2
 U 1 1 5BA7FB7B
@@ -1502,10 +1500,6 @@ $EndComp
 Text Notes 8090 3130 0    50   ~ 0
 Switch\nConnector
 Wire Notes Line
-	4430 3270 5640 3270
-Wire Notes Line
-	5640 4570 7820 4570
-Wire Notes Line
 	7820 470  7820 4570
 Wire Notes Line
 	5640 480  5640 4570
@@ -1523,7 +1517,7 @@ Text Notes 1470 5250 0    50   ~ 0
 RF Modules
 Wire Notes Line
 	6900 7780 6900 4700
-Text Notes 4880 3440 0    50   ~ 0
+Text Notes 4820 3860 0    50   ~ 0
 RF Antenna
 Wire Notes Line
 	9000 6530 6900 6530
@@ -1674,8 +1668,6 @@ Wire Wire Line
 	7810 5910 8240 5910
 Wire Wire Line
 	7810 6210 8240 6210
-Wire Notes Line
-	3360 4120 5640 4120
 Text GLabel 2850 2880 2    50   Input ~ 0
 RXB6DATA
 Wire Wire Line
@@ -1749,4 +1741,58 @@ F 3 "" H 7810 5910 50  0001 C CNN
 	1    7810 5910
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	4440 470  4440 4570
+Wire Notes Line
+	4440 4570 7820 4570
+Wire Notes Line
+	4440 3730 5640 3730
+Text GLabel 4810 2740 0    50   Input ~ 0
+SCL
+$Comp
+L Device:R R9
+U 1 1 5BA396C5
+P 4960 2740
+F 0 "R9" V 5040 2730 50  0000 C CNN
+F 1 "4.7K" V 4860 2740 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4890 2740 50  0001 C CNN
+F 3 "~" H 4960 2740 50  0001 C CNN
+	1    4960 2740
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5BA398A4
+P 5110 2740
+F 0 "#PWR0103" H 5110 2590 50  0001 C CNN
+F 1 "+3.3V" V 5125 2868 50  0000 L CNN
+F 2 "" H 5110 2740 50  0001 C CNN
+F 3 "" H 5110 2740 50  0001 C CNN
+	1    5110 2740
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5BA39C2D
+P 4960 3120
+F 0 "R10" V 5040 3110 50  0000 C CNN
+F 1 "4.7K" V 4860 3120 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4890 3120 50  0001 C CNN
+F 3 "~" H 4960 3120 50  0001 C CNN
+	1    4960 3120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5BA39C33
+P 5110 3120
+F 0 "#PWR0104" H 5110 2970 50  0001 C CNN
+F 1 "+3.3V" V 5125 3248 50  0000 L CNN
+F 2 "" H 5110 3120 50  0001 C CNN
+F 3 "" H 5110 3120 50  0001 C CNN
+	1    5110 3120
+	0    1    1    0   
+$EndComp
+Text GLabel 4810 3120 0    50   Input ~ 0
+SDA
 $EndSCHEMATC
